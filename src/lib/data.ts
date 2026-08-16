@@ -47,6 +47,23 @@ export const skills = {
 
 export const projects = [
   {
+    title: "Roman Urdu Symptom Triage Classifier",
+    subtitle: "Clinical NLP · Fine-Tuned Transformers",
+    description:
+      "A clinical NLP system that predicts triage urgency and body-system category from free-text Roman Urdu symptom descriptions — the script Pakistani patients actually type into a phone. Built solo across six disclosed rounds of error analysis and architecture fixes, with every claim backed by the script that produced it.",
+    points: [
+      "Fine-tuned XLM-RoBERTa and MuRIL transformers behind a hybrid dual-model serving architecture",
+      "Iterative error analysis lifted emergency-case recall from 0.27 to 0.97 and body-system accuracy from 0.06 to 0.88 across 6 rounds",
+      "Hand-verified 1,600+ labels via Cohen's kappa audits and a custom Next.js + FastAPI review tool",
+      "Deployed with a live demo on Vercel and model weights hosted on Hugging Face Hub",
+    ],
+    tags: ["Python", "PyTorch", "Transformers", "XLM-RoBERTa", "NLP", "FastAPI"],
+    links: {
+      github: "https://github.com/laiba-salman929/roman-urdu-symptom-triage",
+      demo: "https://demo-ui-nu-coral.vercel.app",
+    },
+  },
+  {
     title: "Cyber Incident Detection System",
     subtitle: "Machine Learning & Graph Analysis",
     description:

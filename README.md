@@ -2,7 +2,7 @@
 
 Personal portfolio for Laiba Khan, an Artificial Intelligence undergraduate at NED University of Engineering & Technology, specializing in machine learning, computer vision, and AI-driven software development.
 
-**Live site:** [portfolio-eta-weld-49.vercel.app](https://portfolio-eta-weld-49.vercel.app)
+**Live site:** [me.laibakhan.xyz](https://me.laibakhan.xyz)
 
 ## Overview
 
@@ -44,4 +44,4 @@ Content is centralized in `src/lib/data.ts` — update that file to change resum
 
 ## Deployment
 
-Deployed on [Vercel](https://vercel.com). Pushes to `master` can be connected to auto-deploy via Vercel's Git integration.
+Deployed on [Vercel](https://vercel.com), served from a custom domain (`me.laibakhan.xyz`) proxied through Cloudflare DNS. Pushes to `master` can be connected to auto-deploy via Vercel's Git integration.

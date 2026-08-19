@@ -61,6 +61,7 @@ export const projects = [
     links: {
       github: "https://github.com/laiba-salman929/roman-urdu-symptom-triage",
       demo: "https://demo-ui-nu-coral.vercel.app",
+      api: "https://api.laibakhan.xyz",
     },
   },
   {

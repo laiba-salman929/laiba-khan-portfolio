@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Braces } from "lucide-react";
 import type { MouseEvent } from "react";
 import { staggerItem } from "./FadeIn";
 
@@ -22,6 +22,7 @@ type Project = {
   links?: {
     github?: string;
     demo?: string;
+    api?: string;
   };
 };
 
@@ -174,6 +175,17 @@ export default function ProjectCard({
               >
                 <ArrowUpRight size={15} />
                 Live demo
+              </a>
+            )}
+            {project.links.api && (
+              <a
+                href={project.links.api}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-accent"
+              >
+                <Braces size={15} />
+                API
               </a>
             )}
           </div>
